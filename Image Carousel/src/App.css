@@ -1,0 +1,42 @@
+body{
+  background-color: black;
+  color: aliceblue;
+}
+
+.carousel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.img{
+  width: 600px;
+  height: 400px;
+}
+
+button{
+  border-radius: 5px;
+  background-color: #0a3d62;
+  color: #c8d6e5;
+  padding: 10px;
+  font-size: 18px; 
+  cursor: pointer;
+}
+
+.btnprev{
+  margin-right: 5px;
+}
+
+.btnnext{
+  margin-left: 5px;
+
+}
+
+.show{
+  display: block;
+}
+
+.hide{
+  display: none;
+}
